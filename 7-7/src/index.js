@@ -28,7 +28,7 @@ $(function() {
     const colors = ['#9ACBDE', '#FDF7EB', '#FFE3B1', '#AAEBCB', '#34CFC7', '#dec650'];
     const imgs = ['https://s3.qiufengh.com/2019-7-7/301565001546_.pic.jpg', 'https://s3.qiufengh.com/2019-7-7/281565001543_.pic.jpg', 'https://s3.qiufengh.com/2019-7-7/261565001541_.pic.jpg','https://s3.qiufengh.com/2019-7-7/251565001495_.pic.jpg', 'https://s3.qiufengh.com/2019-7-7/241565001494_.pic.jpg','https://s3.qiufengh.com/2019-7-7/201565001490_.pic.jpg'];
     const diff = 60;
-    const total = 30;
+    const total = 5;
     let lastColor = colors[Math.floor(Math.random()*6)];
     let lastImgs = imgs[Math.floor(Math.random()*6)];
     
@@ -91,6 +91,7 @@ $(function() {
                         showClose: false,
                         closeExisting: false
                     });
+                    $('.score-wrapper .score').text('爆表！！！');
                     setTimeout(function() {
                         location.reload();
                     }, 5 *1000);

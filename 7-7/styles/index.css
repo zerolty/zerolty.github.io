@@ -1,6 +1,9 @@
 .container {
     height: 100vh;
     position: relative;
+    background-image: url('../bg.gif');
+    background-size: 100% 100%;
+    background-position: no-repeat;
 }
 .top {
     width: 100vw;
@@ -28,11 +31,11 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    background: yellow;
-    background-size: 100%;
+    background: #4b4b42;
+    background-size: 80%;
     background-position: 50%;
     background-repeat: no-repeat;
-
+    border-radius: 5px;
 }
 
 .bottom {
