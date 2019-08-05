@@ -1,0 +1,77 @@
+.container {
+    height: 100vh;
+    position: relative;
+}
+.top {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.box-tools {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    position: absolute;
+    transition: left 0.5s;
+}
+
+.box-rope {
+    width: 10px;
+    height: 50px;
+    background: #726b6b;
+}
+
+.box-item {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+}
+
+.bottom {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    transition: all 0.25s;
+}
+
+.bottom.bottom-none {
+    transition: none;
+}
+
+div.blocker {
+    background-color: rgba(0, 0, 0, 0.38);
+}
+
+div.modal{
+    -webkit-box-shadow: 0 0 10px #7a7a7a;
+    -moz-box-shadow: 0 0 10px #7a7a7a;
+    -o-box-shadow: 0 0 10px #7a7a7a;
+    -ms-box-shadow: 0 0 10px #7a7a7a;
+    box-shadow: 0 0 10px #7a7a7a;
+    text-align: center;
+}
+
+.score-wrapper {
+    width: 80px;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #7a7a7a;
+}
