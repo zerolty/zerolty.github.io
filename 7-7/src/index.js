@@ -51,7 +51,7 @@ $(function() {
                 $('#ex4').modal();
                 setTimeout(function() {
                     location.reload();
-                }, 1000);
+                }, 3000);
             }
             lastLeft = left;
             const boxItem = $('<div class="box-item"></div>');
