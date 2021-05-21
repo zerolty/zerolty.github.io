@@ -49,3 +49,17 @@ a {
   color: white;
   margin-top: 4px;
 }
+
+.tea {
+    width: 100%;
+    font-size: 13px;
+    color: #656565;
+    position: absolute;
+    bottom: 2px;
+    text-align: center;
+}
+
+.tea a {
+    color: #7c3333;
+    text-decoration: none;
+}
