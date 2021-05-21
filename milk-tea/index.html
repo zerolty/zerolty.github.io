@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3点-饮茶了</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="wrap">
+        <h1 class="">
+            3点，饮茶了！
+        </h1>
+        <svg viewBox="0 0 250 210">
+            <g transform="translate(0 -50)">
+
+                <clipPath id="myClip">
+                    <path d="M 60 80 L 80 250 L 170 250 L 190 80 Z" stroke="none" fill="rgb(100, 100, 255)" />
+                </clipPath>
+
+                <rect x="0" y="96" width="350" height="350" fill="#fcf7d7" clip-path="url(#myClip)" />
+
+                <g clip-path="url(#myClip)">
+                    <path d="M32.36,57.31s6.27-6.26,21.93-4.25,22.37,6,35.12,5.59,11.19-4.61,27.07-3V59.8H32.36Z"
+                        transform="translate(20 37)" fill="#fcf7d7" />
+                    <path d="M32.36,57.31s6.27-6.26,21.93-4.25,22.37,6,35.12,5.59,11.19-4.61,27.07-3V59.8H32.36Z"
+                        transform="translate(245 37) scale(-1 1)" fill="#fcf7d7" />
+                </g>
+
+                <!--      <path d="M 60 80 L 80 250 L 170 250 L 190 80 Z" stroke="black" fill="none" />
+         -->
+
+                <g id="pearls">
+
+                </g>
+
+                <ellipse cx="125" cy="80" rx="68" ry="10" fill="#82bcff" />
+
+
+
+            </g>
+        </svg>
+
+        <div class="msg">
+
+        </div>
+        <button onclick="morepearls()">加珍珠 (+50c)</button>
+        <!-- <a href="#null" onclick="reset()">reset</a> -->
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
