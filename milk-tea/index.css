@@ -50,7 +50,7 @@ a {
   margin-top: 4px;
 }
 
-.tea {
+.footer {
     width: 100%;
     font-size: 13px;
     color: #656565;
@@ -59,7 +59,7 @@ a {
     text-align: center;
 }
 
-.tea a {
+.footer a {
     color: #7c3333;
     text-decoration: none;
 }

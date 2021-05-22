@@ -228,3 +228,20 @@ function reset() {
 
   addPearls(20);
 }
+
+function main() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const name = urlParams.get('name');
+  const href = urlParams.get('link');
+  const footer = document.querySelector('.footer');
+  if (name) {
+    footer.style.display = 'block';
+    const link = footer.querySelector('a')
+    link.innerText = name;
+    link.href = href;
+  } else {
+    footer.style.display = 'none';
+  }
+}
+
+main();
